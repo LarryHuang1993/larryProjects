@@ -1,0 +1,45 @@
+server:
+  port: 8082
+  context-path: /
+spring:
+#  mvc:
+#    view:
+#      prefix: /view/
+#      suffix: .html
+  datasource:
+#  home
+#    driver-class-name: oracle.jdbc.OracleDriver
+#    url: jdbc:oracle:thin:@127.0.0.1:1521:orcl
+#    username: system
+#    password: Huang1234
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://rm-wz91o2rev40i535nfo.mysql.rds.aliyuncs.com:3306/larry?useSSL=false
+#    url: jdbc:mysql://127.0.0.1:3306/larry?useSSL=false
+    username: root
+    password: Huang123
+  jpa:
+    hibernate:
+       ddl-auto: update
+       show-sql: true
+       naming:
+         strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    database: mysql
+    show-sql: true
+#thymeleaf start
+  thymeleaf:
+    mode: HTML5
+    encoding: utf-8
+    content-type: text/html
+    cache: false
+    prefix: classpath:/view/
+    suffix: .html
+#  devtools:
+#    restart:
+#      additional-paths: classpath:com\\larry
+mybatis:
+  mapper-locations: classpath*:mapper/*Mapper.xml
+  type-aliases-package: com.larry.model
+  check-config-location: true
+logging:
+  config: classpath:logback.xml
+  path: /log/larry

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/larry-db/larry-db.iml" filepath="$PROJECT_DIR$/larry-db/larry-db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/larry-domain/larry-domain.iml" filepath="$PROJECT_DIR$/larry-domain/larry-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/larry-service/larry-service.iml" filepath="$PROJECT_DIR$/larry-service/larry-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/larry-utils/larry-utils.iml" filepath="$PROJECT_DIR$/larry-utils/larry-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/larry-web/larry-web.iml" filepath="$PROJECT_DIR$/larry-web/larry-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/larryProjects.iml" filepath="$PROJECT_DIR$/.idea/larryProjects.iml" />
+    </modules>
+  </component>
+</project>

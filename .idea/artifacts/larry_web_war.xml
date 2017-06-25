@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="larry-web:war">
+    <output-path>$PROJECT_DIR$/larry-web/target</output-path>
+    <root id="archive" name="springboot.war">
+      <element id="artifact" artifact-name="larry-web:war exploded" />
+    </root>
+  </artifact>
+</component>
