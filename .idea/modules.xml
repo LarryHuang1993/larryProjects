@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/larry-angular/larry-angular.iml" filepath="$PROJECT_DIR$/larry-angular/larry-angular.iml" />
       <module fileurl="file://$PROJECT_DIR$/larry-db/larry-db.iml" filepath="$PROJECT_DIR$/larry-db/larry-db.iml" />
       <module fileurl="file://$PROJECT_DIR$/larry-domain/larry-domain.iml" filepath="$PROJECT_DIR$/larry-domain/larry-domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/larry-service/larry-service.iml" filepath="$PROJECT_DIR$/larry-service/larry-service.iml" />

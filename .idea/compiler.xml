@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="larry-angular" />
         <module name="larry-db" />
         <module name="larry-domain" />
         <module name="larry-service" />
@@ -14,6 +15,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="larry-angular" target="1.8" />
       <module name="larry-config" target="1.8" />
       <module name="larry-db" target="1.8" />
       <module name="larry-domain" target="1.8" />

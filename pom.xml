@@ -14,6 +14,7 @@
         <module>larry-service</module>
         <module>larry-web</module>
         <module>larry-utils</module>
+        <module>larry-angular</module>
     </modules>
 
     <parent>

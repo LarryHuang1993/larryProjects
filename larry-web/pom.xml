@@ -23,7 +23,11 @@
             <artifactId>larry-service</artifactId>
             <version>${project.version}</version>
         </dependency>
-
+        <dependency>
+            <groupId>larryProject</groupId>
+            <artifactId>larry-utils</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
@@ -39,6 +43,24 @@
                         <goals>
                             <goal>repackage</goal>
                         </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <artifactId>maven-resources-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>copy-resources</id>
+                        <phase>validate</phase>
+                        <goals><goal>copy-resources</goal></goals>
+                        <configuration>
+                            <outputDirectory>${basedir}/target/classes/view/</outputDirectory>
+                            <resources>
+                                <resource>
+                                    <directory>${basedir}/../larry-angular/dist</directory>
+                                </resource>
+                            </resources>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>

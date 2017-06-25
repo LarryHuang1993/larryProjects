@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.larry.dao.StudentInfoDao">
+    <resultMap id="StudentInfo" type="com.larry.model.StudentInfo">
+        <id column="id" property="id"></id>
+        <result column="name" property="name"></result>
+        <result column="age" property="age"></result>
+        <result column="address" property="address"></result>
+
+    </resultMap>
+
+    <select id="selectStudent" resultMap="StudentInfo" resultType="com.larry.model.StudentInfo">
+      select * from student_info
+    </select>
+</mapper>
