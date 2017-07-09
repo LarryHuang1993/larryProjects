@@ -23,7 +23,7 @@ public class SystemController {
 
     @RequestMapping("/")
     public String index(){
-        return "/angular/index";
+        return "/index/index";
     }
 
     /**

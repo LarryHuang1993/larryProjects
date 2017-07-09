@@ -54,7 +54,7 @@
                         <phase>validate</phase>
                         <goals><goal>copy-resources</goal></goals>
                         <configuration>
-                            <outputDirectory>${basedir}/target/classes/view/</outputDirectory>
+                            <outputDirectory>${basedir}/src/main/webapp/view/index</outputDirectory>
                             <resources>
                                 <resource>
                                     <directory>${basedir}/../larry-angular/dist</directory>
