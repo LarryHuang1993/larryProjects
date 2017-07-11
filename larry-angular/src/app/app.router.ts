@@ -1,11 +1,13 @@
 import { RouterModule, Routes } from '@angular/router';
 
 import { LoginComponent } from './modules/login/login.component';
+import { HomeComponent } from "./modules/home/home.component";
 
 const routes: Routes = [
   // 以后在这里改动配置
-  { path: '', pathMatch: 'full', redirectTo: '/toLogin' },
-  { path: 'toLogin',  component: LoginComponent }
+  { path: '', pathMatch: 'full', redirectTo: '/home' },
+  { path: 'toLogin',  component: LoginComponent },
+  { path: 'home',  component: HomeComponent }
 ];
 // { path: 'detail/:id', component: DetailComponent }
 
