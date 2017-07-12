@@ -6,7 +6,7 @@ import { HomeComponent } from "./modules/home/home.component";
 const routes: Routes = [
   // 以后在这里改动配置
   { path: '', pathMatch: 'full', redirectTo: '/home' },
-  { path: 'toLogin',  component: LoginComponent },
+  { path: 'login',  component: LoginComponent },
   { path: 'home',  component: HomeComponent }
 ];
 // { path: 'detail/:id', component: DetailComponent }

@@ -1,0 +1,3 @@
+server:
+  publicUrl: /home,/register,/registeruser, /css/**, /js/**, /plugin/**,/images/**,/view/angular/**
+  loginPage: /login
