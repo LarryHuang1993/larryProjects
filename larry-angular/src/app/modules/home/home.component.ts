@@ -20,8 +20,8 @@ export class HomeComponent implements OnInit{
   }
 
   ngOnInit(){
-    this.http.get("/api/demo").subscribe((res:Response)=>{
-      console.info(res.json())
-    });
+    // this.http.get("/api/demo").subscribe((res:Response)=>{
+    //   console.info(res.json())
+    // });
   }
 }
